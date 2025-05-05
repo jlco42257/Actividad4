@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Actividad 4</title>
+  <link rel="stylesheet" href="./Actividad4/ejercicios/Estilos.css">
+</head>
+<body>
+  <!-- Importacion de los archivos JavaScript de los ejercicios -->
+  <script src="./Actividad4/ejercicios/Ejercicio1.js"></script>
+  <script src="./Actividad4/ejercicios/Ejercicio2.js"></script>
+  <script src="./Actividad4/ejercicios/Ejercicio3.js"></script>
+  <script src="./Actividad4/ejercicios/Ejercicio4.js"></script>
+  <script src="./Actividad4/ejercicios/Ejercicio5.js"></script>
+  <script src="./Actividad4/ejercicios/Ejercicio6.js"></script> 
+  <script src="./Actividad4/ejercicios/Ejercicio7.js"></script>
+  <script src="./Actividad4/ejercicios/Ejercicio8.js"></script>
+  <script src="./Actividad4/ejercicios/Ejercicio9.js"></script>
+
+  <header>
+    <h1>Actividad 4 hecha por José Luis Cárdenas Olarte</h1>
+  </header>
+
+  <main>
+    <h2>Presiona un boton para ejecutar el ejercicio deseado</h2>
+    <section>
+      <button onclick="ejercicio1()">Ejercicio 1</button>
+      <button onclick="ejercicio2()">Ejercicio 2</button>
+      <button onclick="ejercicio3()">Ejercicio 3</button>
+      <button onclick="ejercicio4()">Ejercicio 4</button>
+      <button onclick="ejercicio5()">Ejercicio 5</button>
+      <button onclick="ejercicio6()">Ejercicio 6</button>
+      <button onclick="ejercicio7()">Ejercicio 7</button>
+      <button onclick="ejercicio8()">Ejercicio 8</button>
+      <button onclick="mostrarPagina(pagina)">Ejercicio 9</button>
+    </section>
+  </main>
+  <table id="contador" border="1" cellspacing="0" cellpadding="4"></table>
+
+  <div id="paginacion" style="margin-top: 1rem;">
+    <button onclick="paginaAnterior()">Anterior</button>
+    <span id="paginaActual">1</span>
+    <button onclick="paginaSiguiente()">Siguiente</button>
+  </div>
+</body>
+</html>
